@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+	<head>
+		<!-- meta 标签 -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Bootstrap 的 CSS 文件 -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/style.css">
+		<title>提醒事项</title>
+	</head>
+	<body>
+		<!-- 头部导航栏 -->
+		<nav class="navbar navbar-expand navbar-dark bg-primary navbar-collapse fix-top">
+			<a class="navbar-brand text-white" href="#">某管理系统</a>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown ">
+				<ul class="navbar-nav ">
+					<li class="nav-item dropdown ">
+						<a class="nav-link dropdown-toggle collapse navbar-collapse" href="#" id="navbarDropdownMenuLink" role="button"
+						 data-toggle="dropdown" aria-expanded="false">
+							用户操作
+						</a>
+						<div class="dropdown-menu " aria-labelledby="dropdownMenuLink">
+							<a class="dropdown-item" href="#">个人中心</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">退出</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- 左侧导航 -->
+		<div class="a position-fixed pt-3">
+			<ul class="nav flex-column">
+				<li class="nav-item ">
+					<a class="nav-link text-white " href="index.html">首页</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="user.html">用户中心</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="search.html">数据查询</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-white" href="data.html">数据面板</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active text-white" href="tip.html">提醒事项<span class="badge badge-pill badge-warning ml-3">4</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!-- 主体 -->
+		<!-- 面包屑导航 -->
+		<div class="position-fixed b overflow-auto">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb">
+					<li class="breadcrumb-item g" aria-current="page">提醒事项</li>
+				</ol>
+			</nav>
+			<!-- 面包屑导航完毕 -->
+			<div class="container-fluid">
+				<ul class="list-group list-group-flush ">
+					<li class="list-group-item">我需要操作的事项1</li>
+					<li class="list-group-item">我需要操作的事项2</li>
+					<li class="list-group-item">我需要操作的事项3</li>
+					<li class="list-group-item">我需要操作的事项4</li>
+				</ul>
+			</div>
+		</div>
+		<script src="jQ/jquery.slim.min.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>

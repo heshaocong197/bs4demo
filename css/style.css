@@ -1,0 +1,42 @@
+.selector-for-some-widget {
+	box-sizing: content-box;
+}
+.a {
+	background-color: #283643;
+	width: 12rem;
+	height: 100%;
+	margin-bottom: 0rem;
+	top: 3.5rem;
+	bottom: 0px;
+}
+.a a {
+	padding: 0 2rem;
+	height: 3rem;
+	line-height: 3rem;
+}
+.a li:hover {
+	background-color: #3c4248;
+	width: auto;
+}
+.active {
+	background-color: #3c4248;
+}
+.b {
+	top: 3.5rem;
+	left: 12rem;
+	right: 0;
+	bottom: 0;
+}
+.c {
+	height: 3rem;
+	line-height: 3rem;
+	color: #6C757D;
+	border-bottom: 2px solid #e9ecef;
+}
+.d {
+	height: 2px;
+	color: #e9ecef;
+}
+.g{
+	color: #75797d;
+}
